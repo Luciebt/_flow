@@ -1,0 +1,16 @@
+.play-button {
+  font-size: 1.3em;
+  padding: 0 !important;
+  height: 3.2rem;
+  border: 1px solid var(--button-hover-bg-color) !important;
+  box-shadow: 1px 1px 1px 1px var(--button-hover-bg-color) !important;
+  background-color: var(--secondary-button-bg-color) !important;
+}
+
+.play-button:hover {
+  background-color: var(--button-hover-bg-color) !important;
+  border: 1px solid var(--secondary-button-bg-color) !important;
+  box-shadow: 1px 1px 1px 1px var(--secondary-button-bg-color) !important;
+  color: var(--secondary-button-bg-color) !important;
+  transition: all 0.2s ease-in-out !important;
+}

@@ -1,0 +1,29 @@
+body {
+  margin-left: 3%;
+  margin-right: 3%;
+  color: #424346 !important;
+  background-color: var(--secondary-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --primary-color: #465832;
+  --secondary-color: #fefae0;
+  --accent-color: #d4a373;
+  --button-bg-color: #e9efd3;
+  --secondary-button-bg-color: #faedcd;
+  --button-hover-bg-color: #283618;
+  --button-text-color: #424346;
+  --button-hover-text-color: #ccd5ae;
+  --dropdown-text-color: #ccd5ae;
+  --dropdown-margin: 0.3em;
+}
